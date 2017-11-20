@@ -1,0 +1,483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{a05590b6-befb-48db-8286-23ff1fb4f3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs">
+      <UniqueIdentifier>{4fc413a4-03b7-44f3-942a-5f27426b91e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{605e2bc0-7b3d-4ccf-9abb-c2f5ca8b93bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\content">
+      <UniqueIdentifier>{da989ffe-6b21-4e96-b789-41d7c393ff89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{ad3f57d3-26d8-4ff9-8f24-25682b157392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\content">
+      <UniqueIdentifier>{10926aac-063d-40d0-939e-9dc548a493de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{fde47037-5f94-4111-848b-4b9534a8f946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{fcb0fc11-2e47-46ac-87c6-c758729aab63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render">
+      <UniqueIdentifier>{50596b57-3cf5-4be1-bbba-9d7cfadbfdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render">
+      <UniqueIdentifier>{9d416d44-4605-4015-9f5f-f7da70fa42ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\shader">
+      <UniqueIdentifier>{6477ddcc-d060-420f-a57d-b6c2ed414a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\shader">
+      <UniqueIdentifier>{0928ea76-eaa3-4052-b970-6ee5917f6a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\camera">
+      <UniqueIdentifier>{4130b9d5-585d-4919-9f4e-b82a1b4879d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\camera">
+      <UniqueIdentifier>{7e6102ce-8441-4142-956e-9aff7fae356f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\graphic">
+      <UniqueIdentifier>{8a05a4ab-1fbe-46ea-b41a-b81a99689995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\graphic\D2D">
+      <UniqueIdentifier>{866feb49-3c49-45d8-923c-8e7c08a5173b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\graphic">
+      <UniqueIdentifier>{fd3c5a0d-88bf-4dd7-bfcb-2abb892406dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\graphic\D2D">
+      <UniqueIdentifier>{11009812-be1c-4209-ae30-987377501dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\shader\D2D">
+      <UniqueIdentifier>{537d5567-c7c8-4f55-8c20-4c47712fe823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{af937ff5-792b-4253-9edb-3d826a042029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scenes">
+      <UniqueIdentifier>{e572856e-98e1-46a5-aebf-0de18a307cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{b7bdc81a-4a5f-4402-a463-8767615dc176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\enum">
+      <UniqueIdentifier>{40d949b6-15e9-4a1f-a7e3-158ef5bbd0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\shader\D3D">
+      <UniqueIdentifier>{f514ee95-7f85-4466-b164-f141d9b35cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\graphic\D3D">
+      <UniqueIdentifier>{9dc79e91-e271-43b3-a254-84f928a3d66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\graphic\data">
+      <UniqueIdentifier>{ac7c81b1-2baf-412b-8342-16c6b8a3ce1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\graphic\D3D">
+      <UniqueIdentifier>{ee62a8c2-b973-484c-be88-5b92c145ab10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\graphic\D3D\data">
+      <UniqueIdentifier>{d231ed58-85dc-430d-97c9-7508dd2bfcc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\system">
+      <UniqueIdentifier>{d32d4978-39df-426b-98ce-2c19a712fb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\system\font">
+      <UniqueIdentifier>{3732dde8-42d2-46e9-b908-754020dd48a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{ee751e79-a697-4676-8cbb-08e068a3eb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\component">
+      <UniqueIdentifier>{5e59b90d-21c7-48d5-a3f6-22c4725aebad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\component">
+      <UniqueIdentifier>{4426793f-78b6-4cc0-922c-52915866e287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\system">
+      <UniqueIdentifier>{4a97fb9c-8f94-44ef-849b-18e3d7be0e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\pugixml">
+      <UniqueIdentifier>{d3c618e0-756d-4054-a837-ec326cd430ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\pugixml">
+      <UniqueIdentifier>{6c719622-53ea-4edf-9b6e-61741fbfc1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\light">
+      <UniqueIdentifier>{6a0c8813-2cc0-46af-b3fe-a3fd14879446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\render\light">
+      <UniqueIdentifier>{2d3f4fbb-1aa3-454f-af1f-946c0f3a83eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\audio">
+      <UniqueIdentifier>{1c02ce5e-f8b2-460f-92a8-8cfc70e0f129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\audio">
+      <UniqueIdentifier>{5d8a5ae4-2336-434a-ac57-73c85b5b9c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\render\light">
+      <UniqueIdentifier>{72ada0c5-ed9f-487c-b9c6-2324b0226501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libs\serial">
+      <UniqueIdentifier>{f89bcda5-a881-468f-8ced-b71e07268197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\serial">
+      <UniqueIdentifier>{c45fc020-87fa-4653-aee1-1414db2b4d76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PicoPNG.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageContent.h">
+      <Filter>Header Files\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseContent.h">
+      <Filter>Header Files\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="FatalError.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Header Files\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseShader.h">
+      <Filter>Header Files\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Header Files\core\render\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCamera.h">
+      <Filter>Header Files\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.h">
+      <Filter>Header Files\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable2D.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Header Files\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteShader.h">
+      <Filter>Header Files\core\render\shader\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveShader.h">
+      <Filter>Header Files\core\render\shader\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexturedSprite2D.h">
+      <Filter>Header Files\core\render\graphic\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeInterval.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHelper.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumWindowFlags.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="NColor.h">
+      <Filter>Header Files\core\render\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Header Files\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="NCameraManagment.h">
+      <Filter>Header Files\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveShader3D.h">
+      <Filter>Header Files\core\render\shader\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable3D.h">
+      <Filter>Header Files\core\render\graphic\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="NPrimitiveCube3D.h">
+      <Filter>Header Files\core\render\graphic\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ_Loader.h">
+      <Filter>Header Files\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="NStaticModel3D.h">
+      <Filter>Header Files\core\render\graphic\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="dtModelObjMesh.h">
+      <Filter>Header Files\core\render\graphic\D3D\data</Filter>
+    </ClInclude>
+    <ClInclude Include="NMeshRenderer3D.h">
+      <Filter>Header Files\core\render\graphic\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNCharacterASCII.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNBitmapFontRawType.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumNCharacterUnicode.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontCharDescriptor.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontCharset.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontPage.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontKerning.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NBitmapFontParser.h">
+      <Filter>Header Files\core\system\font</Filter>
+    </ClInclude>
+    <ClInclude Include="NCommon.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.h">
+      <Filter>Header Files\core\render\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FontContent.h">
+      <Filter>Header Files\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="NTextfield2D.h">
+      <Filter>Header Files\core\component</Filter>
+    </ClInclude>
+    <ClInclude Include="dtPositionTextureColor.h">
+      <Filter>Header Files\core\render\graphic\data</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumTextAlign.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShader.h">
+      <Filter>Header Files\core\render\shader\D2D</Filter>
+    </ClInclude>
+    <ClInclude Include="pugiconfig.hpp">
+      <Filter>Header Files\libs\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="pugixml.hpp">
+      <Filter>Header Files\libs\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveShaderColor3D.h">
+      <Filter>Header Files\core\render\shader\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundContent.h">
+      <Filter>Header Files\core\content</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\core\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="NPrimitivePlane3D.h">
+      <Filter>Header Files\core\render\shader\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="dtPositionNormalColorVertex.h">
+      <Filter>Header Files\core\render\graphic\D3D\data</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseDrawable.h">
+      <Filter>Header Files\core\render\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="NLightManager.h">
+      <Filter>Header Files\core\render\light</Filter>
+    </ClInclude>
+    <ClInclude Include="NBaseLight.h">
+      <Filter>Header Files\core\render\light</Filter>
+    </ClInclude>
+    <ClInclude Include="NBasicLight.h">
+      <Filter>Header Files\core\render\light</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumLightType.h">
+      <Filter>Header Files\enum</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLightingShader.h">
+      <Filter>Header Files\core\render\shader\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="NGraphicDevice.h">
+      <Filter>Header Files\core\system</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialPort.h">
+      <Filter>Header Files\libs\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="ArduinoSerial.h">
+      <Filter>Header Files\libs\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadArduinoExecution.h">
+      <Filter>Header Files\libs\serial</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PicoPNG.cpp">
+      <Filter>Source Files\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageContent.cpp">
+      <Filter>Source Files\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="FatalError.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentManager.cpp">
+      <Filter>Source Files\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseShader.cpp">
+      <Filter>Source Files\core\render\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Source Files\core\render\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>Source Files\core\render\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable2D.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexturedSprite2D.cpp">
+      <Filter>Source Files\core\render\graphic\D2D</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeInterval.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Source Files\core\render\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NCameraManagment.cpp">
+      <Filter>Source Files\core\render\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable3D.cpp">
+      <Filter>Source Files\core\render\graphic\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="NPrimitiveCube3D.cpp">
+      <Filter>Source Files\core\render\graphic\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="NStaticModel3D.cpp">
+      <Filter>Source Files\core\render\graphic\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="NMeshRenderer3D.cpp">
+      <Filter>Source Files\core\render\graphic\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>Source Files\core\render\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FontContent.cpp">
+      <Filter>Source Files\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="NTextfield2D.cpp">
+      <Filter>Source Files\core\component</Filter>
+    </ClCompile>
+    <ClCompile Include="NColor.cpp">
+      <Filter>Source Files\core\render\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="NBitmapFontParser.cpp">
+      <Filter>Source Files\core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="pugixml.cpp">
+      <Filter>Source Files\libs\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="NBaseLight.cpp">
+      <Filter>Source Files\core\render\light</Filter>
+    </ClCompile>
+    <ClCompile Include="NLightManager.cpp">
+      <Filter>Source Files\core\render\light</Filter>
+    </ClCompile>
+    <ClCompile Include="NBasicLight.cpp">
+      <Filter>Source Files\core\render\light</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundContent.cpp">
+      <Filter>Source Files\core\content</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\core\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="NPrimitivePlane3D.cpp">
+      <Filter>Source Files\core\render\graphic\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="NBaseDrawable.cpp">
+      <Filter>Source Files\core\render\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="NGraphicDevice.cpp">
+      <Filter>Source Files\core\system</Filter>
+    </ClCompile>
+    <ClCompile Include="ArduinoSerial.cpp">
+      <Filter>Source Files\libs\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialPort.cpp">
+      <Filter>Source Files\libs\serial</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

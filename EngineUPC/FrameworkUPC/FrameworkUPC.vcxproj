@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44778A8C-DD50-4ED0-A15C-C69BC056F579}</ProjectGuid>
+    <RootNamespace>FrameworkUPC</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)Dependencies/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies/lib/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)Dependencies/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies/lib/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)Dependencies/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies/lib/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)Dependencies/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Dependencies/lib/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;glew32.lib;alut.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;opengl32.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ArduinoSerial.h" />
+    <ClInclude Include="BaseCamera.h" />
+    <ClInclude Include="BaseContent.h" />
+    <ClInclude Include="BaseScene.h" />
+    <ClInclude Include="BaseShader.h" />
+    <ClInclude Include="Camera2D.h" />
+    <ClInclude Include="Camera3D.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="CollisionHelper.h" />
+    <ClInclude Include="ContentManager.h" />
+    <ClInclude Include="Drawable2D.h" />
+    <ClInclude Include="Drawable3D.h" />
+    <ClInclude Include="dtModelObjMesh.h" />
+    <ClInclude Include="dtPositionNormalColorVertex.h" />
+    <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="EnumLightType.h" />
+    <ClInclude Include="EnumNBitmapFontRawType.h" />
+    <ClInclude Include="EnumNCharacterUnicode.h" />
+    <ClInclude Include="EnumTextAlign.h" />
+    <ClInclude Include="FatalError.h" />
+    <ClInclude Include="FontContent.h" />
+    <ClInclude Include="FontShader.h" />
+    <ClInclude Include="FPSCamera.h" />
+    <ClInclude Include="GameFramework.h" />
+    <ClInclude Include="GameWindow.h" />
+    <ClInclude Include="EnumNCharacterASCII.h" />
+    <ClInclude Include="dtPositionTextureColor.h" />
+    <ClInclude Include="BasicLightingShader.h" />
+    <ClInclude Include="NBaseDrawable.h" />
+    <ClInclude Include="NBaseLight.h" />
+    <ClInclude Include="NBasicLight.h" />
+    <ClInclude Include="NBitmapFontParser.h" />
+    <ClInclude Include="ImageContent.h" />
+    <ClInclude Include="MathUtils.h" />
+    <ClInclude Include="MultiTexturedSprite2D.h" />
+    <ClInclude Include="NBitmapFontCharDescriptor.h" />
+    <ClInclude Include="NBitmapFontCharset.h" />
+    <ClInclude Include="NBitmapFontKerning.h" />
+    <ClInclude Include="NBitmapFontPage.h" />
+    <ClInclude Include="NCameraManagment.h" />
+    <ClInclude Include="NColor.h" />
+    <ClInclude Include="NCommon.h" />
+    <ClInclude Include="NGraphicDevice.h" />
+    <ClInclude Include="NLightManager.h" />
+    <ClInclude Include="NPrimitiveCube3D.h" />
+    <ClInclude Include="NMeshRenderer3D.h" />
+    <ClInclude Include="NPrimitivePlane3D.h" />
+    <ClInclude Include="SerialPort.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundContent.h" />
+    <ClInclude Include="NStaticModel3D.h" />
+    <ClInclude Include="NTextfield2D.h" />
+    <ClInclude Include="OBJ_Loader.h" />
+    <ClInclude Include="PicoPNG.h" />
+    <ClInclude Include="PrimitiveShader3D.h" />
+    <ClInclude Include="PrimitiveShaderColor3D.h" />
+    <ClInclude Include="pugiconfig.hpp" />
+    <ClInclude Include="pugixml.hpp" />
+    <ClInclude Include="SceneGraph.h" />
+    <ClInclude Include="ShaderManager.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteShader.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="PrimitiveShader.h" />
+    <ClInclude Include="ThreadArduinoExecution.h" />
+    <ClInclude Include="TimeInterval.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="VertexData.h" />
+    <ClInclude Include="EnumWindowFlags.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ArduinoSerial.cpp" />
+    <ClCompile Include="BaseShader.cpp" />
+    <ClCompile Include="Camera2D.cpp" />
+    <ClCompile Include="Camera3D.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="ContentManager.cpp" />
+    <ClCompile Include="Drawable2D.cpp" />
+    <ClCompile Include="Drawable3D.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="FatalError.cpp" />
+    <ClCompile Include="FontContent.cpp" />
+    <ClCompile Include="FPSCamera.cpp" />
+    <ClCompile Include="GameFramework.cpp" />
+    <ClCompile Include="GameWindow.cpp" />
+    <ClCompile Include="ImageContent.cpp" />
+    <ClCompile Include="MultiTexturedSprite2D.cpp" />
+    <ClCompile Include="NBaseDrawable.cpp" />
+    <ClCompile Include="NBaseLight.cpp" />
+    <ClCompile Include="NBasicLight.cpp" />
+    <ClCompile Include="NBitmapFontParser.cpp" />
+    <ClCompile Include="NCameraManagment.cpp" />
+    <ClCompile Include="NColor.cpp" />
+    <ClCompile Include="NGraphicDevice.cpp" />
+    <ClCompile Include="NLightManager.cpp" />
+    <ClCompile Include="NPrimitiveCube3D.cpp" />
+    <ClCompile Include="NMeshRenderer3D.cpp" />
+    <ClCompile Include="NPrimitivePlane3D.cpp" />
+    <ClCompile Include="SerialPort.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundContent.cpp" />
+    <ClCompile Include="NStaticModel3D.cpp" />
+    <ClCompile Include="NTextfield2D.cpp" />
+    <ClCompile Include="PicoPNG.cpp" />
+    <ClCompile Include="pugixml.cpp" />
+    <ClCompile Include="SceneGraph.cpp" />
+    <ClCompile Include="ShaderManager.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Quad.cpp" />
+    <ClCompile Include="TimeInterval.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

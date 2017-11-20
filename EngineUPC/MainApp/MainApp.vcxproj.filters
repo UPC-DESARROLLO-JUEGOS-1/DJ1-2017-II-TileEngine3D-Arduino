@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{f76e9826-de93-4c2b-af2f-9efe1164224b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{bb514002-b477-44ab-b923-a6404ecf43da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TileEngine3D">
+      <UniqueIdentifier>{c54c567f-0c3f-4195-ac85-944db00ee169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TileEngine3D">
+      <UniqueIdentifier>{7b722c2b-5b1d-4997-abd6-a56e8ccb6774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TileEngine3D\configuration">
+      <UniqueIdentifier>{0e17099e-591c-49b0-ab73-4c14d4cc533c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TileEngine3D\configuration">
+      <UniqueIdentifier>{7b71e582-c497-46c3-b401-9093ac16b01e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game3DScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFontSystemScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Game.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Engine.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Camera.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Actor.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Player.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_PlayerControl.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_World.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_WorldPhysics.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_Configuration.cpp">
+      <Filter>Source Files\TileEngine3D\configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTile3DEngineScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TB3D_GameHud.cpp">
+      <Filter>Source Files\TileEngine3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSceneGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumAppScenes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game3DScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFontSystemScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Game.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Engine.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Camera.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Actor.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Player.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_PlayerControl.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_World.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_WorldPhysics.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_WorldConfig.h">
+      <Filter>Header Files\TileEngine3D\configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTile3DEngineScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_Configuration.h">
+      <Filter>Header Files\TileEngine3D\configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="TB3D_GameHud.h">
+      <Filter>Header Files\TileEngine3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

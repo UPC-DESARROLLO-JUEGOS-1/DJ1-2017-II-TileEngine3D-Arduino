@@ -1,0 +1,16 @@
+#version 130
+
+in vec3 vertexPosition;
+in vec3 vertexNormal;
+
+out vec4 fragmentColor;
+
+uniform mat4 wvp;
+uniform vec4 ambientColor;
+
+void main()
+{
+	gl_Position = wvp * vec4(vertexPosition, 1.0);
+	
+	fragmentColor=ambientColor;
+}
